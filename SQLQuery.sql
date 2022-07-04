@@ -5,10 +5,10 @@ CREATE TABLE Products (
 	
 	INSERT INTO Products
 	VALUES
-		(1, N'Хлеб'),
-		(2, N'Квартира'),
-		(3, N'Шкаф'),
-		(4, N'Принтер');
+		(1, N'РҐР»РµР±'),
+		(2, N'РљРІР°СЂС‚РёСЂР°'),
+		(3, N'РЎС‚СѓР»'),
+		(4, N'РџСЂРёРЅС‚РµСЂ');
 	
 	CREATE TABLE Categories (
 		Id INT PRIMARY KEY,
@@ -17,9 +17,9 @@ CREATE TABLE Products (
 	
 	INSERT INTO Categories
 	VALUES
-		(1, N'Еда'),
-		(2, N'Мебель'),
-		(3, N'Техника');
+		(1, N'Р•РґР°'),
+		(2, N'РњРµР±РµР»СЊ'),
+		(3, N'РўРµС…РЅРёРєР°');
 	
 	CREATE TABLE ProductsCategories (
 		ProductId INT FOREIGN KEY REFERENCES Products(Id),
